@@ -1,6 +1,6 @@
-<p align="center">
-    <img src="Logo.png" width="480" max-width="90%" alt="Dates" />
-</p>
+# Dates
+
+A skinnable calendar.
 
 ## Usage
 
