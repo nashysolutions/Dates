@@ -2,18 +2,6 @@
     <img src="Logo.png" width="480" max-width="90%" alt="Dates" />
 </p>
 
-<p align="center">
-    <a href="https://app.bitrise.io/app/86e40192e5c4de02">
-        <img src="https://app.bitrise.io/app/86e40192e5c4de02/status.svg?token=DQRmewaiQchTgbuM_fdOjQ&branch=master" alt="Bitrise"/>
-   </a>
-    <a href="https://img.shields.io/badge/carthage-compatible-brightgreen.svg">
-        <img src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg" alt="Carthage"/>
-    </a>
-    <a href="https://swift.org/blog/swift-5-released/">
-        <img src="https://img.shields.io/badge/swift-5.0-orange.svg" alt="Swift"/>
-  </a>
-</p>
-
 ## Usage
 
 The onus is on the implementing developer to build the following.
