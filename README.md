@@ -9,7 +9,7 @@ The onus is on the implementing developer to build the following.
 * 4 x `UICollectionViewCell` subclasses representing `DayPositions`.
 * 2 x `UICollectionReusableView` subclasses representing `TitlePositions`.
 
-Take a look at the [SummerSnowflake](https://github.com/BowdusBrown/Dates/wiki/SummerSnowflake) example.
+Take a look at the [SummerSnowflake](https://github.com/nashysolutions/Dates/tree/main/Skinner/Designs/SummerSnowflake) example.
 
 ```swift
 let dayTypes = DayPosition.allCases.map { SummerSnowflake.userInterface(for: $0) }
