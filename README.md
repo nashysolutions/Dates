@@ -1,5 +1,4 @@
-# Dates
-
+# This repository is no longer maintained
 A skinnable calendar.
 
 ## Usage
