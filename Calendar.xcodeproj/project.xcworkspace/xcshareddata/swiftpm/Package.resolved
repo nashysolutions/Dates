@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Calendar",
+        "repositoryURL": "https://github.com/nashysolutions/Calendar.git",
+        "state": {
+          "branch": null,
+          "revision": "b21b4d4e056e5219392cd73a77379088e3637693",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "Dequeue",
         "repositoryURL": "https://github.com/nashysolutions/Dequeue.git",
         "state": {
