@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Calendar",
+        "repositoryURL": "https://github.com/nashysolutions/Calendar.git",
+        "state": {
+          "branch": null,
+          "revision": "8db8abed715d7101da25a9cbbb73037511e6c510",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "Dequeue",
+        "repositoryURL": "https://github.com/nashysolutions/Dequeue.git",
+        "state": {
+          "branch": null,
+          "revision": "af25489b6c479d44d6cc513828d3ae01e25e8f17",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "Gradient",
+        "repositoryURL": "https://github.com/nashysolutions/Gradient.git",
+        "state": {
+          "branch": null,
+          "revision": "6ce9531046e8cb153828600f3777909369832289",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -20,7 +20,7 @@
 		5050CAEE22BCD68000DEA8B5 /* SummerSnowflakeDayTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050CAE822BCD67F00DEA8B5 /* SummerSnowflakeDayTitleReusableView.swift */; };
 		5050CAEF22BCD68000DEA8B5 /* SummerSnowflakeMonthTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050CAE922BCD67F00DEA8B5 /* SummerSnowflakeMonthTitleReusableView.swift */; };
 		5050CAF022BCD68000DEA8B5 /* SummerSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050CAEA22BCD67F00DEA8B5 /* SummerSnowflake.swift */; };
-		5095733C266BCC3F000C74D3 /* Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = 5095733B266BCC3F000C74D3 /* Calendar */; };
+		50556C80266F7125009A32F9 /* Calendar in Frameworks */ = {isa = PBXBuildFile; productRef = 50556C7F266F7125009A32F9 /* Calendar */; };
 		5095733E266BCC8F000C74D3 /* Gradient in Frameworks */ = {isa = PBXBuildFile; productRef = 5095733D266BCC8F000C74D3 /* Gradient */; };
 		50957340266BCC93000C74D3 /* Dequeue in Frameworks */ = {isa = PBXBuildFile; productRef = 5095733F266BCC93000C74D3 /* Dequeue */; };
 		50D59A852272076100773A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D59A842272076100773A31 /* AppDelegate.swift */; };
@@ -132,8 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50957340266BCC93000C74D3 /* Dequeue in Frameworks */,
+				50556C80266F7125009A32F9 /* Calendar in Frameworks */,
 				5095733E266BCC8F000C74D3 /* Gradient in Frameworks */,
-				5095733C266BCC3F000C74D3 /* Calendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +345,9 @@
 			);
 			name = Skinner;
 			packageProductDependencies = (
-				5095733B266BCC3F000C74D3 /* Calendar */,
 				5095733D266BCC8F000C74D3 /* Gradient */,
 				5095733F266BCC93000C74D3 /* Dequeue */,
+				50556C7F266F7125009A32F9 /* Calendar */,
 			);
 			productName = Skinner;
 			productReference = 50D59A822272076100773A31 /* Skinner.app */;
@@ -390,7 +390,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50D59A29227204C100773A31 /* Build configuration list for PBXProject "Calendar" */;
+			buildConfigurationList = 50D59A29227204C100773A31 /* Build configuration list for PBXProject "Dates" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -402,7 +402,7 @@
 			packageReferences = (
 				50DDC4F826341D6F00292945 /* XCRemoteSwiftPackageReference "Dequeue" */,
 				50DDC4FE26341D8500292945 /* XCRemoteSwiftPackageReference "Gradient" */,
-				5095733A266BCC3F000C74D3 /* XCRemoteSwiftPackageReference "Calendar" */,
+				50556C7E266F7125009A32F9 /* XCRemoteSwiftPackageReference "Calendar" */,
 			);
 			productRefGroup = 50D59A30227204C100773A31 /* Products */;
 			projectDirPath = "";
@@ -711,7 +711,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50D59A29227204C100773A31 /* Build configuration list for PBXProject "Calendar" */ = {
+		50D59A29227204C100773A31 /* Build configuration list for PBXProject "Dates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50D59A35227204C100773A31 /* Debug */,
@@ -741,12 +741,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5095733A266BCC3F000C74D3 /* XCRemoteSwiftPackageReference "Calendar" */ = {
+		50556C7E266F7125009A32F9 /* XCRemoteSwiftPackageReference "Calendar" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nashysolutions/Calendar.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.1.0;
 			};
 		};
 		50DDC4F826341D6F00292945 /* XCRemoteSwiftPackageReference "Dequeue" */ = {
@@ -768,9 +768,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5095733B266BCC3F000C74D3 /* Calendar */ = {
+		50556C7F266F7125009A32F9 /* Calendar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5095733A266BCC3F000C74D3 /* XCRemoteSwiftPackageReference "Calendar" */;
+			package = 50556C7E266F7125009A32F9 /* XCRemoteSwiftPackageReference "Calendar" */;
 			productName = Calendar;
 		};
 		5095733D266BCC8F000C74D3 /* Gradient */ = {
